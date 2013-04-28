@@ -9,7 +9,13 @@
 
   <name>brave-zipkin-spancollector</name>
   <url>https://github.com/kristofa/brave-zipkin-spancollector</url>
-
+  <licenses>
+    <license>
+        <name>Apache 2</name>
+        <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        <distribution>repo</distribution>
+    </license>
+   </licenses>  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -123,6 +129,7 @@
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>2.7</version>
             </plugin>
-    </plugins>                
+    </plugins>               
   </build>
+  
 </project>
