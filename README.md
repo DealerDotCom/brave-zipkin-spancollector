@@ -33,7 +33,7 @@ It is advised to add the required thirdy part Maven repos:
     
 to your own proxy (Nexus, Artifactory) instead of leaving them in the pom.xml
 
-## Deploy SNAPSHOT yourself ##
+## Deploy SNAPSHOT ##
 
 
     git clone https://github.com/kristofa/brave-zipkin-spancollector.git
@@ -45,7 +45,7 @@ Maven repos besides those in settings.xml or if you have added the Maven repos t
 proxy.
 
 
-## Make a release yourself ##
+## Make a release ##
 
 If you would want to use this span collector as part of a release you will have to add
 release-plugin entry in pom.xml + specify scm and distributionManagement sections and do
