@@ -1,6 +1,6 @@
 # brave-zipkin-spancollector #
 
-[Brave](https://github.com/kristofa/brave) SpanCollector that converts Brave spans into [https://github.com/twitter/zipkin/](Zipkin) spans and submits them to a Zipkin collector.
+[Brave](https://github.com/kristofa/brave) SpanCollector that converts Brave spans into [Zipkin](https://github.com/twitter/zipkin/) spans and submits them to a Zipkin collector.
 Advantage is that you can reuse the Zipkin back-end (zipkin collector, Cassandra back-end store and zipkin web UI).
 
 For information on how to set up the Zipkin backend components see [here](http://twitter.github.io/zipkin/install.html).
